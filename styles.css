@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  /* Background Color  */
+  /* https://cssgradient.io/gradient-backgrounds/ */
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+}
+
+.label {
+  margin-top: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  height: 35px;
+  font-size: 1em;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.btn {
+  width: 60%;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: rgb(215, 71, 225);
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  color: white;
+  margin: 10px 0px;
+}
+
+.btn:hover {
+  background-color: rgb(186, 59, 175);
+}
+
+.rgs {
+  margin-top: 20px;
+}
+
+.right-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  margin-left: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #860481;
+}
